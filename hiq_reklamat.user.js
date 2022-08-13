@@ -5,7 +5,7 @@
 // @description  FB remove ads
 // @author       You
 // @match        https://www.facebook.com/*
-// @downloadURL  https://raw.githubusercontent.com/diekaines/block_facebook_ads/main/hiq_reklamat.js
+// @downloadURL  https://raw.githubusercontent.com/diekaines/block_facebook_ads/main/hiq_reklamat.user.js
 // @grant        none
 // ==/UserScript==
 
