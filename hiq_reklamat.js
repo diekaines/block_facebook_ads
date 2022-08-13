@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         FB remove ads
-// @namespace    http://diekaines.net/
+// @namespace    example.org
 // @version      0.1
 // @description  FB remove ads
 // @author       You
