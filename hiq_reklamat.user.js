@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FB remove ads
 // @namespace    example.org
-// @version      0.1
+// @version      0.2
 // @description  FB remove ads
 // @author       You
 // @match        https://www.facebook.com/*
