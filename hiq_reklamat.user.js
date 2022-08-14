@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FB remove ads
 // @namespace    example.org
-// @version      0.3
+// @version      0.4
 // @description  FB remove ads
 // @author       You
 // @match        https://www.facebook.com/*
@@ -98,8 +98,8 @@ function remove_ads(el) {
                  .parentElement.parentElement.parentElement.parentElement.parentElement
                  .parentElement.parentElement.parentElement.parentElement.parentElement
                  .parentElement.parentElement.parentElement.parentElement.parentElement
-                 .classList.add('reklama_me_hover')
-                 .remove() ;
+                // .classList.add('reklama_me_hover')
+                // .remove() ;
                  .innerHTML = '<h3 class="drink_water_container">Drink water '+ sa_reklama_jane_hequr +'</h3>'
 
                  shto_tooltip()
