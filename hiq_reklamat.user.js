@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FB remove ads
 // @namespace    example.org
-// @version      0.4
+// @version      0.5
 // @description  FB remove ads
 // @author       You
 // @match        https://www.facebook.com/*
@@ -57,6 +57,15 @@ function is_element_in_viewport(element) {
 
 function remove_ads(el) {
 
+    //IF-i me poshte eshte per rastet kur SPONSORED eshte text i paster
+    if(document.querySelector('span span span a[aria-label="Sponsored"] span')){
+
+        //document.querySelector('span span span a[aria-label="Sponsored"] span').parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+        document.querySelector('span span span a[aria-label="Sponsored"] span').parentNode.parentNode.parentNode.parentNode.parentNode.parentNode
+                                            .parentNode.parentNode.parentNode.parentNode.parentNode
+                                            .innerHTML = '<h3 class="drink_water_container">Drink water '+ sa_reklama_jane_hequr +'</h3>'
+                                            //.remove()
+    }	
 
     var all_chars = []
 
