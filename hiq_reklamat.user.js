@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FB remove ads
 // @namespace    example.org
-// @version      0.5
+// @version      0.6
 // @description  FB remove ads
 // @author       You
 // @match        https://www.facebook.com/*
@@ -69,7 +69,7 @@ function remove_ads(el) {
 
     var all_chars = []
 
-    var kot = document.querySelectorAll(' a > span > span > div ').forEach(function(main_span_sponsored){
+    var kot = document.querySelectorAll('  a > span > span > span   ').forEach(function(main_span_sponsored){
 
     if(!is_element_in_viewport ( main_span_sponsored ) ) {
             return ;
